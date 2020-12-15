@@ -5,7 +5,6 @@
 /*               Zorg dat het paarse review-blok er zo uit komt te zien door flexbox te gebruiken:*/
 .one{
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
 }
 
