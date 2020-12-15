@@ -27,8 +27,8 @@
 
 ul li{
     list-style-type: none;
-    display: inline-block;
-    margin-right: 50px;
+    display: inline;
+    padding-right: 50px;
 }
 
 /*## Opdracht 2.4:*/
@@ -48,19 +48,11 @@ form{
 article {
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 360px;
-    flex-grow: 3;
+    flex-grow: 1;
 }
 
 .five {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 360px;
 }
-
-
-
-
-
-
